@@ -2342,7 +2342,7 @@ fio_send_pages_impl(int out, char* buf)
 					break;
 			}
 
-			if (feof(in))
+			if (read_len < BLCKSZ)
 				goto eof;
 //		  	else /* readed less than BLKSZ bytes, retry */
 

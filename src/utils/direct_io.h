@@ -1,7 +1,6 @@
 #ifndef DIRECT_IO_H
 #define DIRECT_IO_H
 
-#include <stdbool.h>
 #include <sys/types.h>
 #include "pg_probackup.h"
 
